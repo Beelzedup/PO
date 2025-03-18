@@ -28,7 +28,11 @@ double mod(double a, double b) {
 }
 void erase(){}
 void menu(string dzialanie){
-    cout << 
+    cout << "Dodawania ,, + '' " << endl;
+    cout << "Odejmowanie ,, - '' " << endl;
+    cout << "Mnożenie ,, * '' " << endl;
+    cout << "Dzielenie ,, / '' " << endl;
+    cout << "Modulo ,, % '' " << endl;
     switch (znak)
     {
     case +:
@@ -58,6 +62,8 @@ void menu(string dzialanie){
     default:
         cout << "Niepoprawnie podane polecenie" << endl;
         break;
+    }
+}
     }
 }
 
