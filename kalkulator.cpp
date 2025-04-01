@@ -27,7 +27,7 @@ double Kalkulator::mod(double a, double b) {
         cout << "Nie dzielimy przez zero" << endl;
         return 0;
     }
-    return a - (static_cast<int>(a / b) * b);
+    return a - (int)(a / b) * b;
 }
 
 void Kalkulator::pokaz_mem() const {
