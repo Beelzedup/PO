@@ -32,16 +32,16 @@ double Kalkulator::mod(double a, double b) {
 
 void Kalkulator::pokaz_mem() const {
     if (mem_zajeta) {
-        cout << "Wartość zapisana w pamięci: " << mem << endl;
+        cout << "Wartosc zapisana w pamieci: " << mem << endl;
     } else {
-        cout << "Pamięć jest pusta" << endl;
+        cout << "Pamiec jest pusta" << endl;
     }
 }
 
 void Kalkulator::wyczysc_mem() {
     mem = 0;
     mem_zajeta = false;
-    cout << "Pamięć wyczyszczona" << endl;
+    cout << "Pamiec wyczyszczona" << endl;
 }
 
 double Kalkulator::get_mem() const {
