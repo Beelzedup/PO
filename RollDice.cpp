@@ -7,7 +7,7 @@ int rollDice(int sides) {
 }
 
 int main() {
-    std::srand(std::time(0)); // Initialize random seed
+    std::srand(std::time(0));
 
     int d4 = rollDice(4);
     int d6 = rollDice(6);
@@ -16,7 +16,7 @@ int main() {
     int d12 = rollDice(12);
     int d20 = rollDice(20);
 
-    std::cout << "Wyniki rzutów kośćmi RPG:" << std::endl;
+    std::cout << "Wyniki rzutów kośćmi:" << std::endl;
     std::cout << "d4: " << d4 << std::endl;
     std::cout << "d6: " << d6 << std::endl;
     std::cout << "d8: " << d8 << std::endl;
